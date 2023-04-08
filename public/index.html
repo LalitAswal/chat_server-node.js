@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>chat App</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1>Chat Application</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+						<br/>
+						<br/>
+						<br/>
+
+						<select name="room" id="Room">
+							<option>choose Room</option>
+							<option id="2">For 2</option>
+							<option id="3">For 3</option>
+							<option id="4">For 4</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+		integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+		crossorigin="anonymous"
+	  ></script>
+			<script src="/socket.io/socket.io.js"></script>
+			<script src="js/client.js"></script>
+	</body>
+    
+
+</html>
+
+
+
+
+ 
