@@ -8,7 +8,7 @@ Chat application made using Node.js and  VanillaJS
 ---
 ### Getting Started
 1. Clone the repository to your local machine
-  git@github.com:LalitAswal/chat_server-node.js.git
+   git clone git@github.com:LalitAswal/chat_server-node.js.git
 2.  the required packages
   `npm install`
 . Start the application `npm start`
